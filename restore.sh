@@ -8,7 +8,7 @@ cd /usr/share/maliit/plugins/com/ubuntu/lib/
 for D in ./*; do
 	if [ -d "$D" ]; then
 		cd "$D"
-		if [ ! $(pwd) = "/usr/share/maliit/plugins/com/ubuntu/lib/emoji" ]
+		if [ ! $(pwd) = "/usr/share/maliit/plugins/com/ubuntu/lib/emoji" ] && [ ! $(pwd) = "/usr/share/maliit/plugins/com/ubuntu/lib/ja" ] && [ ! $(pwd) = "/usr/share/maliit/plugins/com/ubuntu/lib/th" ]
 			then rm Keyboard*.qml && mv ./backup/* . && rm -rf ./backup
 		fi
 		cd ..
