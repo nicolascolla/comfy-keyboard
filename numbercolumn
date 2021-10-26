@@ -1,0 +1,15 @@
+        Row {
+            anchors.horizontalCenter: parent.horizontalCenter;
+            spacing: 0
+
+            CharKey { label: "1"; shifted: "1"; normalColor: fullScreenItem.theme.charKeyPressedColor }
+            CharKey { label: "2"; shifted: "2"; normalColor: fullScreenItem.theme.charKeyPressedColor }
+            CharKey { label: "3"; shifted: "3"; normalColor: fullScreenItem.theme.charKeyPressedColor }
+            CharKey { label: "4"; shifted: "4"; normalColor: fullScreenItem.theme.charKeyPressedColor }
+            CharKey { label: "5"; shifted: "5"; normalColor: fullScreenItem.theme.charKeyPressedColor }
+            CharKey { label: "6"; shifted: "6"; normalColor: fullScreenItem.theme.charKeyPressedColor }
+            CharKey { label: "7"; shifted: "7"; normalColor: fullScreenItem.theme.charKeyPressedColor }
+            CharKey { label: "8"; shifted: "8"; normalColor: fullScreenItem.theme.charKeyPressedColor }
+            CharKey { label: "9"; shifted: "9"; normalColor: fullScreenItem.theme.charKeyPressedColor }
+            CharKey { label: "0"; shifted: "0"; normalColor: fullScreenItem.theme.charKeyPressedColor }
+        }
