@@ -25,11 +25,11 @@ mount -o remount,rw /
 # move to parent directory
 cd /usr/share/maliit/plugins/com/ubuntu/lib/
 
-# change all keyboards except the emoji keyboard
+# change all keyboards except the emoji, japanese or thai keyboard
 for D in ./*; do
 	if [ -d "$D" ]; then
 		cd "$D"
-		if [ ! $(pwd) = "/usr/share/maliit/plugins/com/ubuntu/lib/emoji" ]
+		if [ ! $(pwd) = "/usr/share/maliit/plugins/com/ubuntu/lib/emoji" ] && [ ! $(pwd) = "/usr/share/maliit/plugins/com/ubuntu/lib/ja" ] && [ ! $(pwd) = "/usr/share/maliit/plugins/com/ubuntu/lib/th" ]
 			then modifykeyboard
 		fi
 		cd ..
