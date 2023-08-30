@@ -12,14 +12,14 @@ Download all the files from this repository (if you don't know how to do that, y
 
 ```
 $ sudo su
-# ./run_xenial.sh
+# bash run_xenial.sh
 ```
 
 If your device is running 20.04 (focal):
 
 ```
 $ sudo su
-# ./run_focal.sh
+# bash run_focal.sh
 ```
 
 The script should do its job in radio silence. Reboot to see your changes:
@@ -40,7 +40,7 @@ Run the restore script as root and reboot.
 
 ```
 $ sudo su
-# ./restore_xenial.sh
+# bash restore_xenial.sh
 # reboot
 ```
 
@@ -48,7 +48,7 @@ $ sudo su
 
 ```
 $ sudo su
-# ./restore_focal.sh
+# bash restore_focal.sh
 # reboot
 ```
 
